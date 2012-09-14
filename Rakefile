@@ -17,13 +17,13 @@ Jeweler::Tasks.new do |gem|
   gem.name = "health-level-7"
   gem.homepage = "http://github.com/caleon/health-level-7"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Ruby interface for the HL7 messaging standards}
+  gem.description = %Q{A library to handle the message parsing and generation of HL7 2.x messages.}
   gem.email = "caleon@gmail.com"
   gem.authors = ["caleon"]
   # dependencies defined in Gemfile
 end
-Jeweler::RubygemsDotOrgTasks.new
+# Jeweler::RubygemsDotOrgTasks.new # TODO: Temporarily prevent.
 
 require 'rspec/core'
 require 'rspec/core/rake_task'
